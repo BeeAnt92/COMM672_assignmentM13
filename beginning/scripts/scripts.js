@@ -1,7 +1,7 @@
 $(document).ready(function() {
             //open modal
             $('.open-modal-btn').click(function() {
-                $($(this).data('target')).show();
+                $($(this).data('data-target')).show('modal-content');
             });
 
             //close modal
@@ -15,4 +15,6 @@ $(document).ready(function() {
                     $('.modal').hide();
                 }
             });
+
+            
         });

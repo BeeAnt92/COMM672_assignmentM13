@@ -226,6 +226,10 @@ body.home {
     height: 80px;
     margin: auto;
 }
+.open-modal-btn {
+    border: none;
+    cursor: pointer;
+}
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
