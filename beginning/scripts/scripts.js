@@ -16,5 +16,16 @@ $(document).ready(function() {
                 }
             });
 
-            
+            // Accordion
+            $('.accordion-header').click(function() {
+                if ($(this).next('.accordion-content').is(':visible')) {
+                    //if content is visible, slide up
+                    $(this).next('.accordion-content').slideUp();
+                } else {
+                    //slide up all other content
+                    $('.accordion-content').slideUp();
+                    //slide down clicked content
+                    $(this).next('.accordion-content').slideDown();
+                }               
+            });
         });

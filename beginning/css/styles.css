@@ -358,9 +358,9 @@ ul.paw-list li::before {
     border-bottom: 1px solid #ddd;
     position: relative;
 }  
-.accordion-checkbox {
+/* .accordion-checkbox {
     display: none;
-} 
+}  */
 .accordion-header {
     display: block;
     background-color: #f9f9f9;
@@ -374,19 +374,20 @@ ul.paw-list li::before {
     background-color: #eee;
 }  
 .accordion-content {
-    max-height: 0;
-    overflow: hidden;
+    display: none;
+    /* max-height: 0; */
+    /* overflow: hidden; */
     background-color: #fff;
     padding: 0 15px;
-    transition: max-height 0.3s ease, padding 0.3s ease;
+    /* transition: max-height 0.3s ease, padding 0.3s ease; */
 }  
 .accordion-content p {
     margin: 15px 0;
 }  
-.accordion-checkbox:checked ~ .accordion-content {
+/* .accordion-checkbox:checked ~ .accordion-content {
     max-height: 200px;
     padding: 15px;
-}   
+}    */
 /**Contact**/
 .contact-container {
     display: flex;
