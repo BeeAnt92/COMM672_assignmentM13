@@ -1,7 +1,7 @@
 $(document).ready(function() {
             //open modal
             $('.open-modal-btn').click(function() {
-                $($(this).data('data-target')).show('modal-content');
+                $($(this).data('target')).show('modal-content');
             });
 
             //close modal
