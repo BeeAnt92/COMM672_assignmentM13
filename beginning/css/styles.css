@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body, textarea {
     font-size: 16px;
     font-family: "Raleway", serif;
@@ -479,6 +482,20 @@ footer > div {
 footer img {
     width: 35px;
 }
+
+/* Back to Top Button */
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #e6a563;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: none;
+}
+
 
 /**Tablet Styles**/
 @media only screen and (max-width: 1040px) {

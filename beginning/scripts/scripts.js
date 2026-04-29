@@ -28,4 +28,14 @@ $(document).ready(function() {
                     $(this).next('.accordion-content').slideDown();
                 }               
             });
+
+            // Back To Top Button
+            $(window).scroll(function() {
+                // If user scrolls down more than 300px, fade in button
+                if ($(this).scrollTop() > 200) {
+                    $('#backToTopBtn').fadeIn();
+                } else {
+                    $('#backToTopBtn').fadeOut();
+                }
+            });
         });
